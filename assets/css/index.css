@@ -1,0 +1,123 @@
+/* font*/
+@font-face {
+    font-family: "outfit" ;
+    src:url(./../font-family/Outfit-VariableFont_wght.ttf);
+    
+}
+
+div {
+    text-align:start;
+}
+body{
+    font-family: "outfit";
+}
+
+/* color*/
+.cyan{
+    color:  hsl(178, 100%, 50%);
+}
+a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: hsl(178, 100%, 50%);
+}
+section{
+    background-color:hsl(216, 50%, 16%) ;
+    box-shadow: 10px 10px 10px 10px rgb(12, 22, 36);
+    border-radius: 20px;
+}
+body{
+    background-color:  hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+}
+table{
+    width: 100%;    
+    border-bottom:0.5px  hsl(215, 32%, 27%) solid ;
+}
+
+section a img{
+    text-align: center;    
+    border-radius: 5%;
+    
+}
+
+ /* media >1000px
+    dimensions
+ */
+@media all and (max-width:1000px) {
+        
+    body{
+        padding: 5% 10% 5% 10%;
+    }
+    table{
+        margin-bottom: 1%;
+    }
+    section a img {
+
+        width: 100%; 
+        height:auto;
+    }
+    section{
+        padding:5% 5% 5% 5% ;
+    }
+    div img {
+        width: 15%;
+        height: auto;
+    }
+    div span{
+        margin-left: 1%;
+    }
+    article p{
+        font-size:smaller ;
+    
+    }
+
+
+
+}
+/*media <1000px  
+    dimensions
+*/
+@media all and (min-width:1001px){
+
+    body{
+        padding: 10% 30% 10% 30%;
+    }
+    table{
+        margin-bottom: 1%;
+    }
+    section a img {
+
+        width:100%; 
+        height:auto;
+    }
+    section{
+        padding: 5% 5% 5% 5%;
+    }
+    div img {
+        width: 15%;
+        height: auto;
+    }
+    div span{
+        margin-left: 2%;
+    }
+    article p{
+        font-size:large;
+    
+    }
+    h3 {
+        font-size:x-large;
+    }
+}
+
+
+
+/* footer */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
